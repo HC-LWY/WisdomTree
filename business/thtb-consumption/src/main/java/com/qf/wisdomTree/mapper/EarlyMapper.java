@@ -1,0 +1,18 @@
+package com.qf.wisdomTree.mapper;
+
+import com.qf.wisdomTree.dto.Early;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+* @author 昏晨
+* @description 针对表【t_early】的数据库操作Mapper
+* @createDate 2023-06-16 15:40:07
+* @Entity com.qf.wisdomTree.dto.Early
+*/
+public interface EarlyMapper extends BaseMapper<Early> {
+
+}
+
+
+
+

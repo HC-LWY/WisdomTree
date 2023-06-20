@@ -1,0 +1,61 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: gateway
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.238.128:8080
+    nacos:
+        server-addr: 192.168.238.128:8848
+        discovery:
+          username: nacos
+          password: nacos
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      globalcors: # 全局的跨域处理
+        add-to-simple-url-handler-mapping: true # 解决options请求被拦截问题
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+
+            allowedMethods: "*"
+
+            allowedHeaders: "*" # 允许在请求中携带的头信息
+            allowCredentials: true # 是否允许携带cookie
+            maxAge: 360000 # 这次跨域检测的有效期
+
+      routes:
+        - id: oss-server
+          uri: lb://oss-server
+          predicates:
+              - Path=/oss/**
+
+        - id: test-server
+          uri: lb://test-server
+          predicates:
+              - Path=/test/**
+
+        - id: greenhouse-server
+          uri: lb://greenhouse-server
+          predicates:
+              - Path=/greenhouse/**,/greenhouseType/**,/greenhouseConfig/**
+
+
+        - id: equipment-server
+          uri: lb://equipment-server
+          predicates:
+              - Path=/equipment/**,,/equipmentType/**,/equipmentConfig/**
+
+        - id: log-server
+          uri: lb://log-server
+          predicates:
+              - Path=/log/**
+
+        - id: equipmentParameters-server
+          uri: lb://equipmentParameters-server
+          predicates:
+              - Path=/early/**,/equipmentParameters/**

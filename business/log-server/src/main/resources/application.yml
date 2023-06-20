@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: 192.168.238.128
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wisdomtree?serverTimezone=GMT%2b8
+    username: root
+    password:
+  application:
+    name: log-server
+server:
+  port: 8093

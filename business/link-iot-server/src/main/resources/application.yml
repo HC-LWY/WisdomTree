@@ -1,0 +1,10 @@
+server:
+  port: 8095
+spring:
+  application:
+    name: link-iot-server
+
+kenplugin:
+  page:
+    webconfig:
+      enable: true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.wisdomTree.mapper.EarlyMapper">
+
+    <resultMap id="BaseResultMap" type="com.qf.wisdomTree.dto.Early">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="equipmentName" column="equipment_name" jdbcType="VARCHAR"/>
+            <result property="greenhouseName" column="greenhouse_name" jdbcType="VARCHAR"/>
+            <result property="earlyContent" column="early_content" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="status" column="status" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,equipment_name,greenhouse_name,
+        early_content,create_time,status
+    </sql>
+</mapper>

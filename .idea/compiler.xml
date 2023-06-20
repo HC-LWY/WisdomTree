@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons-log" />
+        <module name="link-iot-server" />
+        <module name="equipmentParameters-data" />
+        <module name="test" />
+        <module name="commons-redis" />
+        <module name="greenhouse-data" />
+        <module name="equipmentParameters" />
+        <module name="greenhouse-server" />
+        <module name="iot-server" />
+        <module name="log-data" />
+        <module name="commons-web" />
+        <module name="equipment-data" />
+        <module name="Gateway" />
+        <module name="log-server" />
+        <module name="data-base" />
+        <module name="config" />
+        <module name="commons-mybatis" />
+        <module name="equipment-server" />
+        <module name="thtb-consumption" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Gateway" options="-parameters" />
+      <module name="abilit" options="-parameters" />
+      <module name="business" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="commons-log" options="-parameters" />
+      <module name="commons-mybatis" options="-parameters" />
+      <module name="commons-redis" options="-parameters" />
+      <module name="commons-web" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="data" options="" />
+      <module name="data-base" options="-parameters" />
+      <module name="equipment-data" options="-parameters" />
+      <module name="equipment-server" options="-parameters" />
+      <module name="equipmentParameters" options="-parameters" />
+      <module name="equipmentParameters-data" options="-parameters" />
+      <module name="greenhouse-data" options="-parameters" />
+      <module name="greenhouse-server" options="-parameters" />
+      <module name="iot-server" options="-parameters" />
+      <module name="link-iot-server" options="-parameters" />
+      <module name="log-data" options="-parameters" />
+      <module name="log-server" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="thtb-consumption" options="-parameters" />
+      <module name="web-data" options="-parameters" />
+    </option>
+  </component>
+</project>

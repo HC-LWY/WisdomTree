@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.wisdomTree.mapper.TEquipmentParametersMapper">
+
+    <resultMap id="BaseResultMap" type="com.qf.wisdomTree.dto.EquipmentParameters">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="equipmentName" column="equipment_name" jdbcType="VARCHAR"/>
+            <result property="equipmentType" column="equipment_type" jdbcType="VARCHAR"/>
+            <result property="greenhouseName" column="greenhouse_name" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="temperature" column="temperature" jdbcType="INTEGER"/>
+            <result property="humidity" column="humidity" jdbcType="INTEGER"/>
+            <result property="equipmentId" column="equipment_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,equipment_name,equipment_type,
+        greenhouse_name,create_time,temperature,
+        humidity,equipment_id
+    </sql>
+</mapper>

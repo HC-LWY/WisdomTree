@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.wisdomTree.mapper.LogMapper">
+
+    <resultMap id="BaseResultMap" type="com.qf.wisdomTree.vo.Log">
+            <id property="logId" column="log_id" jdbcType="INTEGER"/>
+            <result property="logType" column="log_type" jdbcType="VARCHAR"/>
+            <result property="logContent" column="log_content" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="DATE"/>
+            <result property="username" column="username" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        log_id,log_type,log_content,
+        create_time,username
+    </sql>
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.wisdomTree.mapper.TGreenhouseConfMapper">
+
+    <select id="selectGreenhouseNameById" resultType="java.lang.String">
+        select greenhouse_name from t_greenhouse where greenhouse_id=#{greenhouseId}
+    </select>
+
+</mapper>

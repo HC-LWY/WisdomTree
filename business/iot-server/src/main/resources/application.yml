@@ -1,0 +1,10 @@
+server:
+  port: 8094
+spring:
+  application:
+    name: iot-server
+
+kenplugin:
+  page:
+    webconfig:
+      enable: true
