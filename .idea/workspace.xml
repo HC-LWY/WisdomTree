@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a621b82-415d-4cd7-8658-11b34a950b84" name="Changes" comment="/">
+    <list default="true" id="9a621b82-415d-4cd7-8658-11b34a950b84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/test/src/main/java/com/qf/wisdomTree/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/test/src/main/java/com/qf/wisdomTree/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
       <workItem from="1687229893810" duration="4896000" />
       <workItem from="1687240561406" duration="3158000" />
       <workItem from="1687663692246" duration="1336000" />
-      <workItem from="1687674863331" duration="303000" />
+      <workItem from="1687674863331" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="测试了一个路由ID">
       <created>1687237430215</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687237705654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="/">
+      <created>1687675183410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687675183410</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
