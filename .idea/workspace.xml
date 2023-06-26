@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a621b82-415d-4cd7-8658-11b34a950b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/commons/commons-apis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/commons-apis/src/main/java/com/qf/wisdomTree/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a621b82-415d-4cd7-8658-11b34a950b84" name="Changes" comment="添加接口自动生成API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/greenhouse-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/greenhouse-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/greenhouse-server/src/main/java/com/qf/wisdomTree/controller/GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/greenhouse-server/src/main/java/com/qf/wisdomTree/controller/GreenhouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/greenhouse-data/src/main/java/com/qf/wisdomTree/dto/Greenhouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/greenhouse-data/src/main/java/com/qf/wisdomTree/dto/Greenhouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,10 +189,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GreenhouseApplication" />
         <item itemvalue="JUnit.ApplicationTest.test" />
         <item itemvalue="Spring Boot.ConsumptionApplication" />
         <item itemvalue="Spring Boot.LinkIotApplication" />
-        <item itemvalue="Spring Boot.GreenhouseApplication" />
         <item itemvalue="Spring Boot.EquipmentApplication" />
       </list>
     </recent_temporary>
@@ -223,7 +221,7 @@
       <workItem from="1687240561406" duration="3158000" />
       <workItem from="1687663692246" duration="1336000" />
       <workItem from="1687674863331" duration="2419000" />
-      <workItem from="1687742617780" duration="554000" />
+      <workItem from="1687742617780" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="测试了一个路由ID">
       <created>1687237430215</created>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687676087081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加接口自动生成API">
+      <created>1687743510825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687743510825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试了一个路由ID" />
     <MESSAGE value="/" />
-    <option name="LAST_COMMIT_MESSAGE" value="/" />
+    <MESSAGE value="添加接口自动生成API" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加接口自动生成API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

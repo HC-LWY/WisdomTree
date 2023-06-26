@@ -5,6 +5,9 @@ import com.ken.mybatis.utils.KenPages;
 import com.qf.wisdomTree.annotation.OutLog;
 import com.qf.wisdomTree.dto.Greenhouse;
 import com.qf.wisdomTree.service.IGreenhouseService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import wisdomTree.R;
@@ -12,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/greenhouse")
+@Api(tags = "大棚信息接口",description = "大棚详情信息")
 public class GreenhouseController {
 
 
@@ -19,7 +23,13 @@ public class GreenhouseController {
     private IGreenhouseService greenhouseService;
 
     @GetMapping("/list/{pageSize}/{pageNum}")
-    public R pageList(@PathVariable Integer pageNum,@PathVariable Integer pageSize){
+    @ApiOperation(value = "大棚展示信息接口")
+    public R pageList(@PathVariable
+                      @ApiParam(name = "展示当前页",defaultValue = "1")
+                                  Integer pageNum,
+                      @PathVariable
+                      @ApiParam(name = "当前页条目数",defaultValue = "3")
+                              Integer pageSize){
         KenPages.setPage(pageNum, pageSize);
         List<Greenhouse> list = greenhouseService.list();
         if((list==null)||list.size()<=0){

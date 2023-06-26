@@ -153,6 +153,12 @@
             </dependency>
 
             <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>commons-apis</artifactId>
+                <version>${wisdomTree.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>io.github.verygoodwlk</groupId>
                 <artifactId>ken-page-boot-starter</artifactId>
                 <version>${ken-page-boot-starter.version}</version>

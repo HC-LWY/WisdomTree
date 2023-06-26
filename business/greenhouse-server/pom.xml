@@ -52,5 +52,10 @@
             <artifactId>commons-log</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>commons-apis</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
