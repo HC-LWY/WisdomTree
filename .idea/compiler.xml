@@ -10,6 +10,7 @@
         <module name="link-iot-server" />
         <module name="equipmentParameters-data" />
         <module name="test" />
+        <module name="commons-apis" />
         <module name="commons-redis" />
         <module name="greenhouse-data" />
         <module name="equipmentParameters" />
@@ -34,6 +35,7 @@
       <module name="abilit" options="-parameters" />
       <module name="business" options="-parameters" />
       <module name="commons" options="-parameters" />
+      <module name="commons-apis" options="-parameters" />
       <module name="commons-log" options="-parameters" />
       <module name="commons-mybatis" options="-parameters" />
       <module name="commons-redis" options="-parameters" />

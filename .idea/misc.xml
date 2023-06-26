@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/commons-apis/pom.xml" />
         <option value="$PROJECT_DIR$/data/web-data/greenhouse-data/pom.xml" />
         <option value="$PROJECT_DIR$/equipmentParameters-data/pom.xml" />
         <option value="$PROJECT_DIR$/equipmentParameters-server/pom.xml" />
