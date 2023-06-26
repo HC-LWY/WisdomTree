@@ -28,8 +28,8 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>commons-apis</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
         </dependency>
 
         <dependency>
