@@ -8,6 +8,8 @@ import com.qf.wisdomTree.service.IGreenhouseService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+//import io.swagger.v3.oas.annotations.Operation;
+//import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import wisdomTree.R;
@@ -24,11 +26,12 @@ public class GreenhouseController {
 
     @GetMapping("/list/{pageSize}/{pageNum}")
     @ApiOperation(value = "大棚展示信息接口")
+//    @Operation(summary = "body")
     public R pageList(@PathVariable
-                      @ApiParam(name = "展示当前页",defaultValue = "1")
+                      @ApiParam(name = "pageNum",value = "当前页")
                                   Integer pageNum,
                       @PathVariable
-                      @ApiParam(name = "当前页条目数",defaultValue = "3")
+                      @ApiParam(name = "pageSize",value = "每页条目数")
                               Integer pageSize){
         KenPages.setPage(pageNum, pageSize);
         List<Greenhouse> list = greenhouseService.list();
