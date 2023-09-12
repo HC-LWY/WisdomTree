@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a621b82-415d-4cd7-8658-11b34a950b84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/abilit/oss-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abilit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/abilit/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/greenhouse-server/src/main/java/com/qf/wisdomTree/controller/GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/greenhouse-server/src/main/java/com/qf/wisdomTree/controller/GreenhouseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/greenhouse-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/greenhouse-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/commons-apis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/commons-apis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/commons-apis/src/main/java/com/qf/wisdomTree/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/commons-apis/src/main/java/com/qf/wisdomTree/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/test/src/main/java/com/qf/wisdomTree/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/test/src/main/java/com/qf/wisdomTree/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/greenhouse-data/src/main/java/com/qf/wisdomTree/dto/Greenhouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/greenhouse-data/src/main/java/com/qf/wisdomTree/dto/Greenhouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
     </list>
@@ -72,7 +75,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/abilit/Gateway/src/main/java/com/qf/wisdomTree" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringClod+React/lims" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -222,7 +225,14 @@
       <workItem from="1687240561406" duration="3158000" />
       <workItem from="1687663692246" duration="1336000" />
       <workItem from="1687674863331" duration="2419000" />
-      <workItem from="1687742617780" duration="13156000" />
+      <workItem from="1687742617780" duration="19070000" />
+      <workItem from="1687856380741" duration="2243000" />
+      <workItem from="1687915109717" duration="3310000" />
+      <workItem from="1688692405803" duration="2441000" />
+      <workItem from="1688697745255" duration="1344000" />
+      <workItem from="1693895925860" duration="187000" />
+      <workItem from="1693900012347" duration="64000" />
+      <workItem from="1693961829154" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="测试了一个路由ID">
       <created>1687237430215</created>
@@ -280,18 +290,37 @@
       <option name="project" value="LOCAL" />
       <updated>1687748583059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="整合knife4j 2.0.8">
+      <created>1687765308564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687765308564</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试了一个路由ID" />
     <MESSAGE value="/" />
     <MESSAGE value="添加接口自动生成API" />
     <MESSAGE value="测试swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试swagger" />
+    <MESSAGE value="整合knife4j 2.0.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合knife4j 2.0.8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

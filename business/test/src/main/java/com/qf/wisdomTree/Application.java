@@ -11,8 +11,6 @@ import java.util.Stack;
 @EnableDiscoveryClient
 public class Application {
     public static void main(String[] args) {
-
-
         MyQueue<String> myQueue=new MyQueue<String>();
 
         myQueue.add("1","2","3");

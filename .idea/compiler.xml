@@ -20,6 +20,7 @@
         <module name="commons-web" />
         <module name="equipment-data" />
         <module name="Gateway" />
+        <module name="oss-server" />
         <module name="log-server" />
         <module name="data-base" />
         <module name="config" />
@@ -53,6 +54,7 @@
       <module name="link-iot-server" options="-parameters" />
       <module name="log-data" options="-parameters" />
       <module name="log-server" options="-parameters" />
+      <module name="oss-server" options="-parameters" />
       <module name="test" options="-parameters" />
       <module name="thtb-consumption" options="-parameters" />
       <module name="web-data" options="-parameters" />

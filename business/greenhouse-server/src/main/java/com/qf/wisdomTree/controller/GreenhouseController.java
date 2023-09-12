@@ -28,10 +28,10 @@ public class GreenhouseController {
     @ApiOperation(value = "大棚展示信息接口")
 //    @Operation(summary = "body")
     public R pageList(@PathVariable
-                      @ApiParam(name = "pageNum",value = "当前页")
+                      @ApiParam(value = "当前页")
                                   Integer pageNum,
                       @PathVariable
-                      @ApiParam(name = "pageSize",value = "每页条目数")
+                      @ApiParam(value = "每页条目数")
                               Integer pageSize){
         KenPages.setPage(pageNum, pageSize);
         List<Greenhouse> list = greenhouseService.list();
@@ -54,6 +54,7 @@ public class GreenhouseController {
 
     @PostMapping("/addGreenhouse")
     @OutLog(resources = "大棚",operation = OutLog.Operation_Add)
+    @ApiOperation(value = "大棚信息添加接口")
     public R addGreenhouse(Greenhouse greenhouse){
         boolean save = greenhouseService.save(greenhouse);
 
