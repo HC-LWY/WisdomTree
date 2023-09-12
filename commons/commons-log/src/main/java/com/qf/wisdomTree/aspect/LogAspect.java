@@ -37,6 +37,7 @@ public class LogAspect {
         OutLog outLog=method.getAnnotation(OutLog.class);
         String operation = outLog.operation();
         String resources = outLog.resources();
+        //拼接好日志信息
         String user = outLog.user()==null||outLog.user().equals("")?"某某":outLog.user();
 
         String remarks = outLog.remarks();
